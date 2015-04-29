@@ -8,4 +8,7 @@
 
 %define installable_zip 1
 
+# Entries migrated from the old rpm/droid-hal-hammerhead.spec
+%define enable_kernel_update 1
+
 %include rpm/dhd/droid-hal-device.inc
